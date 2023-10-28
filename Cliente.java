@@ -32,11 +32,11 @@ public class Cliente {
         String accion = scanner.nextLine();
 
         if (accion.equalsIgnoreCase("encender")) {
-            carro.encender();
+            System.out.println("Tu carro " + tipoCarro + " está encendido con llantas " + tipoLlantas + " y está reproduciendo tu canción favorita en el radio " + tipoRadio);
         } else if (accion.equalsIgnoreCase("acelerar")) {
-            carro.acelerar();
+            System.out.println("Tu carro " + tipoCarro + " está acelerando con llantas " + tipoLlantas + " y está reproduciendo tu canción favorita en el radio " + tipoRadio);
         } else if (accion.equalsIgnoreCase("apagar")) {
-            carro.apagar();
+            System.out.println("Tu carro " + tipoCarro + " está apagado");
         } else {
             System.out.println("Acción no válida.");
         }

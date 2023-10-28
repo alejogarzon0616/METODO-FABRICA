@@ -13,8 +13,12 @@ public class Carro {
         System.out.println("Encendiendo el carro " + marca);
     }
 
-    public void acelerar() {
+    public void acelerar(String tipoLlantas, String tipoRadio) {
         System.out.println("Acelerando el carro " + marca + " con llantas " + tipoLlantas + " y reproduciendo tu canción favorita en el radio " + tipoRadio);
+    }
+
+    public void acelerar() {
+        System.out.println("Acelerando el carro " + marca);
     }
 
     public void apagar() {
